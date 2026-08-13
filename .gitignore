@@ -1,0 +1,22 @@
+# secrets & local state
+.env
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+graph_snapshot.jsonl
+docs/evidence/*.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# editors
+.vscode/
+.idea/
+.DS_Store
